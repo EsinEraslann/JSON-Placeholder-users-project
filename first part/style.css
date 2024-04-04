@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  margin: 0;
+}
+
+body {
+  background: #a3e0f6;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  text-align: center;
+  border: 3px solid #1f1e1e;
+  border-radius: 15px;
+  background: transparent;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.userContent {
+  padding: 50px;
+}
+
+.userContent h5 {
+  margin-top: 40px;
+}
+
+.address, .company, .contact {
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  width: 100%;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.buttonContainer button {
+  font-size: 1.3rem;
+  padding: 20px;
+  border: 2px solid black;
+  background: transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.clickActive {
+  background-color: #eff2f4 !important;
+  color: #1c1c1c !important;
+}
+
+
+.display {
+  display: none;
+}
+
