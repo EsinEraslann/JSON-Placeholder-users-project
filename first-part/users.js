@@ -67,7 +67,7 @@ function showBtn(id, type) {
 function openPrompt() {
   const userId = prompt("Lütfen 1 ile 10 arasında bir kullanıcı ID'si girin:");
   if (!isNaN(userId) && userId >= 1 && userId <= 10) {
-      window.location.href = `/second part/post.html?userId=${userId}`;
+      window.location.href = `/second-part/post.html?userId=${userId}`;
   } else {
       alert("Geçersiz kullanıcı ID'si! Lütfen 1 ile 10 arasında bir ID girin.");
   }
